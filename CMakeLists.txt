@@ -4,7 +4,7 @@ project(lcc_zach)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_BUILD_TYPE DEBUG)
 
-add_library(lccall string.c alloc.c)
+add_library(lccall string.c alloc.c sym.c)
 # include_directories(include)
 
 add_executable(lcc lcc.c)
